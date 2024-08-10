@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: #eeee;
+}
+
+.container{
+    position: relative;
+    
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 20px;
+    box-shadow: 0px 2px 2px 2px grey;
+}
+#a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #eeee;
+    backdrop-filter: blur(1px);
+    
+}
+
+ul li a{
+    margin-inline: 22px;
+}
+ul li #home{
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    color: rgb(5, 167, 167);
+
+}
+ul li a:hover{
+    border-bottom: solid 2px black;
+}
+ul li i:hover{
+    border-bottom: solid 2px black;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 8px;
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .mainText{
+    margin-top: 144px;
+}
+
+
+.mainText h1{
+    font-size: 64px;
+    
+}
+.mainText .top{
+    color: rgb(7, 219, 219);
+}
+.mainText button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(7, 219, 219);
+    border: none;
+    font-size: 22px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.mainText p{
+    margin-top: 20px;
+    color: black;
+}
+.mainText button:hover{
+    border: 3px solid  rgb(5, 167, 167);
+    background-color: aliceblue;
+    color: rgb(5, 167, 167);
+}
+
+.trend .head{
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+
+}
+.head span{
+    color: rgb(1, 132, 132);
+}
+.card{
+    display: flex;
+    justify-content: center;
+
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-inline: 11px;
+
+}
+.crd img{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 5px;
+
+}
+#star{
+    color: rgb(236, 118, 14);
+    
+}
+.card .crd button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(3, 143, 143);
+    border: none;
+    font-size: 22px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.crd h2{
+    margin-left: 25%;
+}
+
+.star{
+    margin-left: 29%;
+}
+.blog{
+    display: flex;
+    border-radius: 11px;
+   
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-inline:22px;
+
+
+}
+#trendss{
+    padding-top: 60px;
+
+}
+.cart1{
+    display: flex;
+    margin-left: 13%;
+}
+
+.blogtext{
+    margin-top: 17%;
+    margin-left: 12px;
+    
+}
+
+
+.blogtext p{
+    margin-top: 20px;
+    color: black;
+
+}
+.blogtext button{
+    width: 125px;
+    height: 30px;
+    background-color: rgb(3, 143, 143);
+    border: none;
+    font-size: 18px;
+    color: aliceblue;
+    border-radius: 11px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.blog img{
+    
+    border-radius:11px ;
+    width: 55%;
+    
+}
+
+.letter{
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(9, 1, 63);
+    height: 100px;
+    margin-top: 45px;
+
+}
+
+.letter .LetterTexts h1,p{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+
+.inp{
+    margin-left: 40%;
+    display: flex;
+    
+}
+.inp input{
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    width: 250px;
+}
+.inp button{
+    margin-top: 20px;
+    height: 40px;
+    width: 60px;
+    color: aliceblue;
+    background-color: rgb(1, 130, 130);
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #1a1a1aee;
+    height: 280px;
+}
+
+.footerText h2,p{
+    color: rgb(255, 255, 255);
+
+}
+
+.footerText h2{
+    margin-top: 35px;
+    font-size: 36px;
+
+}
+
+.footerText p{
+    margin-top: 20px;
+}
+
+
