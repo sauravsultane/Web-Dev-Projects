@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1, 
+        "name":"LD01 loung chair",
+        "price":200,
+        "image": "pngwing.com.png"
+
+
+    },
+    {
+        "id": 2, 
+        "name":"LD02 loung chair",
+        "price":200,
+        "image": "pngwing.com (1).png"
+
+
+    },
+    {
+        "id": 3, 
+        "name":"LD03 loung chair",
+        "price":200,
+        "image": "pngwing.com (2).png"
+
+
+    },
+    {
+        "id": 4, 
+        "name":"LD04 loung chair",
+        "price":200,
+        "image": "pngwing.com (3).png"
+
+
+    },
+    {
+        "id": 5, 
+        "name":"LD05 loung chair",
+        "price":200,
+        "image": "pngwing.com (4).png"
+
+
+    },
+    {
+        "id": 6, 
+        "name":"LD06 loung chair",
+        "price":200,
+        "image": "pngwing.com (5).png"
+
+
+    },{
+        "id": 7, 
+        "name":"LD02 loung chair",
+        "price":200,
+        "image": "png.png"
+
+
+    },
+    {
+        "id": 8, 
+        "name":"LD02 loung chair",
+        "price":200,
+        "image": "png1.png"
+
+
+    }
+
+]
