@@ -1,0 +1,151 @@
+/* body{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(42, 41, 41);
+    
+}
+
+#divs{
+    height: 450px;
+    width: 350px;
+
+    border: solid 0px black;
+    border-radius: 5px;
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5); 
+
+}
+#inputs{
+    margin: auto;
+    margin-top: 60px;
+    height: 20px;
+    width: auto;
+  
+    display: flex;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    border: 0px;
+    box-shadow:    5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 30px;
+   
+}
+.tag{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #4c68d7;
+}
+
+
+#buttons{
+    /* display: flex;
+    text-align: center;
+   
+ 
+    color: beige;
+    background-color: #4c68d7;
+    border: 0px;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px; */
+    /* background-color: #4c68d7;
+    border-radius: 30px;
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Gill Sans';
+    font-size: 30px;
+    margin-inline: auto;
+    
+    outline: 0;
+    border: 0;
+    padding: 15px 25px;
+    font-size: 15px;
+
+
+} */
+.class
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .remove-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li .remove-btn:hover {
+    background-color: #c82333;
+}
+
+.Remove{
+    padding: 10px 20px;
+    border: none;
+    background-color: red ;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
