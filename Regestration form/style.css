@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 31, 225); 
+    min-height: 100vh;   
+    padding: 0px 20px;
+    cursor: url('cursor.png'), auto;
+
+}
+
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgb(0, 0,0.1);
+
+}
+.container header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.container form{
+    margin-top: 30px;
+
+}
+form .input-box{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.input-box label{
+    color: #333;
+}
+
+.input-box input{
+    /* position: relative; */
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #707070;
+    outline: none;
+    border: 1px solid rgba(59, 50, 50, 0.533);
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+
+
+.column{
+    
+    display: flex;
+    column-gap: 15px;
+}
+
+/* Responsive */
+@media screen and (max-width:500px) {
+    .column{
+        flex-wrap: wrap;
+    }
+    
+}
+.gender-box{
+    margin-top: 20px;
+}
+.gender-box h3{
+    font-weight: 400;
+    color: #333;
+    font-size: 1rem;
+}
+.gender-box .gender-input{
+    margin-top: 8px;
+    display: flex;
+    column-gap: 20px;
+}
+
+@media screen and (max-width:314px) {
+    .gender-box .gender-input{
+        flex-wrap: wrap;   
+    }
+
+    
+}
+
+.address-box h3{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+
+}
+.address-box input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px;
+
+}
+.country .country1 select{
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    border-radius: 6px;
+    border:1px solid #707070;
+    margin-top: 5px;
+
+}
+
+.address-box .country{
+    display: flex;
+
+}
+@media screen and (max-width:500px) {
+    .address-box .country{
+        flex-wrap: wrap;
+    }
+    
+}
+.button button{
+    height: 50px;
+    width: 100%;
+    color: aliceblue;
+    background-color: rgb(131, 31, 225); 
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+

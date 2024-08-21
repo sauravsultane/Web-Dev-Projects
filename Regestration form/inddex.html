@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regestration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+    <section class="container">
+      <header>Regestration Form</header>
+        
+        <form action="#" class="form" id="registrationForm">
+            <div class="input-box">
+              <label>Full Name</label>
+              <input type="text" placeholder="Full Name">
+            </div>
+            <div class="input-box">
+              <label>Password</label>
+              <input type="password" placeholder="Password" id="password">
+            </div>
+            <div class="input-box">
+              <label>Email</label>
+              <input type="email" placeholder="Email Address" id="email" required>
+            </div>  
+            <div class="column">
+              <div class="input-box">
+                <label>Phone Number</label>
+                <input type="number" placeholder="Phone Number" required>
+              </div>
+              <div class="input-box">
+                <label>Bitrh Date</label>
+                <input type="date" placeholder="DOB" required>
+              </div>
+            </div>
+           <div class="gender-box">
+            <h3>Gender</h3>
+            <div class="gender-input">
+              <div class="gender">
+                <input type="radio" name="Gender" id="Check-male" checked >
+              <label for="Check-male">Male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" name="Gender" id="Check-female">
+              <label for="Check-female">Female</label>
+              </div>
+              <div class="gender">
+                <input type="radio" name="Gender" id="Check-other">
+              <label for="Check-other">Other</label>
+              </div>
+            </div>
+           </div>
+
+
+           <div class="address-box">
+            <h3>Address</h3>
+            <input type="text" name="" id="" placeholder="Enter Street Address">
+            <input type="text" name="" id="" placeholder="Enter Street Address">
+            <div class="country">
+              <input type="text" placeholder="Enter Your Country">
+             <!-- <div class="country1">
+              <select>
+                <option hidden>Country</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>Bangladesh</option>
+                <option>Bhutan</option>
+                <option>Nepal</option>
+                <option>Shrilanka</option>
+                <option>China</option>
+              </select>
+             </div> -->
+              <input type="text" placeholder="City">
+            </div>
+            <div class="country">
+              <input type="text" placeholder="Region">
+              <input type="Number" maxlength="6" placeholder="Postol Code">
+            </div>
+           </div>
+           <div class="button">
+            <button type="submit">Submit</button>
+           </div>
+        </form>
+    </section>
+    <script src="app.js"></script>
+    
+</body>
+</html>
